@@ -1,0 +1,44 @@
+.player-form{
+	width: 100%;
+	background-color: #eee;
+	padding: 10px;
+	border-radius: 5px;
+}
+.player-form .form-control, .form-submit{
+	width: 100%;
+	height: 40px;
+	margin-bottom: 10px;
+	padding: 0;
+}
+.player-form .form-control * {
+	height: 80%;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+.player-form .form-control label{
+	font-weight: bold;
+	font-size: 12;
+	width: 25%;
+}
+
+.player-form .form-control input{
+	width: calc(100% - 25% - 4px);
+}
+
+.player-form .form-submit
+{
+	text-align: right;
+}
+
+.player-form .form-submit .btn
+{
+	display: inline-block;
+	height: 80%;
+	width: calc(50% - 10px);
+	margin-right: 10px;
+}
+
+.player-form .form-submit .btn:last-child{
+	margin-right: 0;
+}
